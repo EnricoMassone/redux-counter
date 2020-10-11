@@ -1,14 +1,11 @@
 import React from "react";
 import { render } from "react-dom";
+import Counter from "./Counter";
 
 const App = () => {
   return (
     <React.StrictMode>
-      <div className="app">
-        <header>
-          <h1>Hello from the template!</h1>
-        </header>
-      </div>
+      <Counter />
     </React.StrictMode>
   );
 };
