@@ -1,15 +1,15 @@
-export const increment = "INCREMENT";
-export const decrement = "DECREMENT";
-export const reset = "RESET";
+export const INCREMENT = "INCREMENT";
+export const DECREMENT = "DECREMENT";
+export const RESET = "RESET";
 
-export const getIncrementAction = () => ({
-  type: increment
+export const createIncrementAction = () => ({
+  type: INCREMENT
 });
 
-export const getDecrementAction = () => ({
-  type: decrement
+export const createDecrementAction = () => ({
+  type: DECREMENT
 });
 
-export const getResetAction = () => ({
-  type: reset
+export const createResetAction = () => ({
+  type: RESET
 });
