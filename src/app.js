@@ -5,7 +5,9 @@ import Counter from "./Counter";
 const App = () => {
   return (
     <React.StrictMode>
-      <Counter />
+      <div className="app">
+        <Counter />
+      </div>
     </React.StrictMode>
   );
 };
